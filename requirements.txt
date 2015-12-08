@@ -1,9 +1,9 @@
-Django==1.9rc2
+Django==1.9
 psycopg2==2.6.1
 #may use gulp for this in prod
 django-compressor>=1.6
 #django-modelcluster==1.0
-wagtail>=1.2
+#wagtail>=1.2
 django-taggit>=0.17.4
 #maybe change to this but plan to use gulp
 #django-libsass>=0.6
