@@ -7,5 +7,5 @@ RUN git clone https://github.com/kaedroho/wagtail.git -b dj19 --depth 1
 RUN pip install Django==1.9 psycopg2==2.6.1 django-compressor==1.6 \
 				django-taggit>=0.17.4 Pillow django-redis==4.3.0 elasticsearch==2.1.0 \
 				uwsgi==2.0.11.2
-RUN cd python setup.py install && cd .. && rm -rf wagtail
+RUN cd wagtail && python setup.py install && cd .. && rm -rf wagtail
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
