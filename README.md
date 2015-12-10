@@ -4,10 +4,10 @@ This is purely a development environment for the time being a quick way to get w
 
 ## Goals
 
-[] Get dev/prod containers set up
-[] build docker-compose for dev/prod
-[] separate services for redis, gulp, production
-[] simple instructions for hosting with nginx proxy
+- [ ] Get dev/prod containers set up
+- [ ] build docker-compose for dev/prod
+- [ ] separate services for redis, gulp, production
+- [ ] simple instructions for hosting with nginx proxy
 
 ## instructions
 
